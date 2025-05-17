@@ -1,18 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-body {
-    margin: 0;
-    padding: 0;
-    width: 100vw;
-    height: 100vh;
-    font-family: "PT Sans", sans-serif;
-}
-.main{
+.container{
+    display: flex;
+    justify-content: space-around;
+    gap:32px;
+ }
+ 
+ header{
+   display: flex;
+     justify-content: flex-start;
+ 
+ }
+ .main{
     display: flex;
     justify-content: space-around;
 }
 #pic{
     width: 45vw;
+
 
 }
 #ct{
@@ -28,5 +33,34 @@ body {
     text-underline-position: from-font;
     text-decoration: none;
     color: white;
+
+
+}
+
+
+.ert {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+    /* height: 680px; */
+    background-color: #E9ADC89E;
+
+
+}
+.imfo {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 60%;
+
+
+}
+.u {
+ display: flex;
+ justify-content: flex-end;
+ flex-direction: column;
+ width: 15vw;
+
 
 }
